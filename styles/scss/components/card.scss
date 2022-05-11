@@ -1,0 +1,15 @@
+.cardMessage {
+  padding: 1rem;
+  border: solid 1px white;
+  border-radius: 15px;
+  margin: 1rem 0rem;
+
+  .titleColor {
+    color: rgb(207, 100, 100);
+    font-weight: bold;
+  }
+
+  p {
+    color: white;
+  }
+}

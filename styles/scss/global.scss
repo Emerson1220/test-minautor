@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Open+Sans+Condensed:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+
+  color: $GRAY;
+}
+
+.container {
+  @include margin-page;
+  padding: 4em;
+  max-width: 1400px;
+}
+
+.displayFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

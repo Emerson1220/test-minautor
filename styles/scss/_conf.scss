@@ -1,0 +1,22 @@
+/*|---------------| App Color Schema|---------------*/
+$BLUE: #106170;
+$RED: #e17172;
+$WHITE: #ffff;
+$GRAY: grey;
+$BLACK: black;
+$DARKBLUE: #090f1b;
+
+/*|---------------| BREAKPOINTS|---------------*/
+
+$BREAKPOINT-DESK-4K: 1800px;
+$BREAKPOINT-DESK: 1280px;
+$BREAKPOINT-TABLET-LAND: 975px;
+$BREAKPOINT-TABLET: 768px;
+$BREAKPOINT-MOBILE-LAND: 480px;
+
+/*|---------------|MIXINS|---------------*/
+
+@mixin margin-page {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}
